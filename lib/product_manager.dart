@@ -15,6 +15,7 @@ class ProductManager extends StatefulWidget {
 }
 
 class _ProductManagerState extends State<ProductManager> {
+  //final List<String> _products = const [];
   List<String> _products = [];
 
   @override

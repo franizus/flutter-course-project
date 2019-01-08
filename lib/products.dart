@@ -23,8 +23,6 @@ class Products extends StatelessWidget {
             itemBuilder: _buildProductItem,
             itemCount: products.length,
           )
-        : Center(
-            child: Text('Not products found, please add some'),
-          );
+        : Container();
   }
 }

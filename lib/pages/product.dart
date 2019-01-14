@@ -19,7 +19,7 @@ class ProductPage extends StatelessWidget {
           title: Text(title),
         ),
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          // mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Image.asset(imageUrl),
